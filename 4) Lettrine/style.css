@@ -1,0 +1,18 @@
+div {
+    border: 1px solid black;
+    width: 200px;
+    padding: 20px;
+}
+
+.firstp::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    color:red;
+    
+}
+
+.secondp::first-line {
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
